@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Замовлення суші</h2>
+    <form class="form">
+      <div class="row">
+        <label for="firstName">Ім'я</label>
+        <input class="row-input" id="firstName" type="text" />
+      </div>
+
+      <div class="row">
+        <label for="address">Адреса</label>
+        <input class="row-input" id="address" type="text" />
+      </div>
+
+      <div class="phone-email row">
+        <div class="column">
+          <label for="phoneNumber">Телефон</label>
+          <input class="column-input" id="phoneNumber" type="tel" />
+        </div>
+
+        <div class="column">
+          <label for="email">Email</label>
+          <input class="column-input" id="email" type="email" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label for="stick">Кількість паличок</label>
+        <input class="row-input" id="stick" type="number" />
+      </div>
+
+      <div class="row">
+        <label for="typeStick">Вид паличок</label>
+        <select class="row-input" id="typeStick">
+          <option value="">Звичайні</option>
+          <option value="">Навчальні</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="list">Список для вибору суші</label>
+        <select class="row-input" id="list">
+          <option value="">Філадельфія</option>
+          <option value="">Каліфорнія</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="napkins">Чи потрібні серветки?</label>
+        <select class="row-input" id="napkins">
+          <option value="">Так</option>
+          <option value="">Ні</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="comment">Додатковий коментар</label>
+        <input class="row-input" id="comment" type="textarea" />
+      </div>
+    </form>
+  </body>
+</html>
