@@ -1,0 +1,157 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.input-block {
+  display: flex;
+  gap: 20px;
+}
+
+.picture {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.input-with-picture {
+  position: relative;
+}
+
+.input-line {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.input-line-red {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.input-line-green {
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.input-line-red::placeholder {
+  color: red;
+}
+
+.input-line-green::placeholder {
+  color: green;
+}
+
+.input-radio {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button-active {
+  padding: 5px 20px;
+  color: whitesmoke;
+  background-color: rgb(66, 173, 77);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button-hover-1 {
+  padding: 5px 20px;
+  color: whitesmoke;
+  background-color: rgb(43, 119, 47);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button-danger {
+  padding: 5px 20px;
+  color: whitesmoke;
+  background-color: rgb(226, 66, 92);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button-hover-2 {
+  padding: 5px 20px;
+  color: whitesmoke;
+  background-color: rgb(149, 41, 64);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button-disabled {
+  padding: 5px 20px;
+  color: whitesmoke;
+  background-color: rgb(118, 33, 52);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button-plus {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: rgb(69, 170, 76);
+  border: none;
+  font-weight: 700;
+}
+
+.button-minus {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: rgb(230, 63, 93);
+  border: none;
+  font-weight: 700;
+}
+
+.button-active:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-hover-1:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-danger:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-hover-2:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-disabled:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-plus:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.button-minus:hover {
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+}

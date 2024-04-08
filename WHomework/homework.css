@@ -1,0 +1,135 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.head-block {
+  display: flex;
+}
+.picture {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+.header-text {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.main-block1 {
+  width: 15%;
+}
+.list {
+  font-size: 18px;
+  list-style-position: inside;
+  padding: 5px;
+}
+.list-item-text {
+  display: none;
+}
+.list-item1 {
+  list-style-image: url(incom.png);
+  padding: 10px;
+  vertical-align: middle;
+}
+.list-item2 {
+  list-style-image: url(outcom.png);
+  padding: 10px;
+  vertical-align: middle;
+}
+.list-item3 {
+  list-style-image: url(draft.png);
+  padding: 10px;
+  vertical-align: middle;
+}
+.list-item4 {
+  list-style-image: url(spam.png);
+  padding: 10px;
+  vertical-align: middle;
+}
+.list-item1:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.list-item2:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.list-item3:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.list-item4:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.main-block2 {
+  width: 80%;
+}
+.line {
+  display: flex;
+  max-height: 55px;
+}
+.message {
+  display: flex;
+  position: relative;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.clip {
+  width: 15px;
+  height: 15px;
+  padding-right: 30px;
+}
+.data-clip {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.message-text-item1 {
+  font-weight: 700;
+}
+.message-text-item2 {
+  color: gray;
+}
+.data {
+  width: 35%;
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+  .list-item-text {
+    display: contents;
+  }
+  .main-block1 {
+    width: 30%;
+  }
+}
+
+@media (min-width: 800px) {
+  .list-item-text {
+    display: contents;
+  }
+  .main-block1 {
+    width: 20%;
+  }
+  .message-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .break {
+    display: flex;
+    max-width: 70%;
+  }
+  .message-text-item2 {
+    max-width: 50%;
+    margin-left: 10px;
+  }
+  .line {
+    max-height: 20px;
+  }
+}

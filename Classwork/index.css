@@ -1,0 +1,121 @@
+.form-block {
+  margin: 20px;
+}
+
+.picture {
+  width: 30px;
+  height: 30px;
+}
+
+.input-block {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.input-block-password {
+  margin-top: 10px;
+}
+.input-window {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px;
+  width: 70%;
+  padding: 10px 0px 5px 20px;
+  font-size: larger;
+}
+
+.confirm {
+  display: flex;
+}
+.empty-div {
+  width: 30px;
+  height: 30px;
+}
+
+.personal {
+  margin-top: 40px;
+}
+
+.input-window-nolabel {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px;
+  width: 75%;
+  padding: 10px 0px 5px 20px;
+  font-size: larger;
+}
+
+.checkbox-block {
+  margin-top: 30px;
+}
+
+.checkbox-line {
+  margin-top: 15px;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.button {
+  position: relative;
+}
+
+.input-button {
+  position: absolute;
+  right: 5px;
+  padding: 5px 20px;
+  background-color: rgb(7, 90, 246);
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .name {
+    display: flex;
+  }
+  .input-window-nolabel {
+    width: 90%;
+  }
+  .date {
+    display: flex;
+  }
+  .input-block {
+    width: 100%;
+  }
+  .block-password {
+    display: flex;
+  }
+  .confirm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  .name {
+    display: flex;
+  }
+  .input-window-nolabel {
+    width: 90%;
+  }
+  .date {
+    display: flex;
+  }
+  .input-block {
+    width: 100%;
+  }
+  .details-block {
+    display: flex;
+  }
+  .registration {
+    width: 50%;
+  }
+  .personal {
+    width: 50%;
+  }
+  .block-password {
+    display: flex;
+  }
+}
